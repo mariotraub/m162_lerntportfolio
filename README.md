@@ -1,2 +1,52 @@
 # Lernportfolio - Modul 164
-Mario, Sandro, Kenneth, Marco, Adrian
+Sandro, Marco, Adrian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS: This Repo is cooked
