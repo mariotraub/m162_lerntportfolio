@@ -1,1 +1,0 @@
-![](ERM_Tourenplaner.png)
