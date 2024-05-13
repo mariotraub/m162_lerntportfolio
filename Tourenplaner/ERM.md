@@ -1,1 +1,1 @@
-![](ERM_Tourenplaner.drawio.png)
+![](ERM_Tourenplaner.png)
