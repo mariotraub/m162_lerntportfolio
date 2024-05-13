@@ -31,7 +31,7 @@ Anomalien in einer Datenbasis sind Unregelmässigkeiten oder Fehler, die die Kon
 
 ## 4. Gibt es redundante "Daten"? Warum?
 
-Ja, redundante Daten können in einer Datenbasis vorhanden sein. Dies kann aus verschiedenen Gründen geschehen, wie z.B. zur Verbesserung der Leistung, zur Redundanzkontrolle oder zur Unterstützung von Datenintegrität. Ein Beispiel für redundante Daten könnte eine Tabelle mit Benutzerinformationen sein, die den gleichen Benutzernamen in verschiedenen Zeilen enthält, um auf verschiedene Daten zuzugreifen oder um die Effizienz von Abfragen zu verbessern.
+Das sind unterschiedliche Daten, welche dieselbe Info enthalten. Beispiel: Alter(24) und Geburtsdatum (02.02.2000)
 
 ## 5. Datenstrukturierung:  
 ### Welche zwei Aspekte können strukturiert werden?  
