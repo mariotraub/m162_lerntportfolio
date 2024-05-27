@@ -8,4 +8,4 @@ In diesem SQL-Skript gibt es keine neuen oder ungewöhnlichen Befehle. Das einzi
 
 ## Was ist anders in der Non-/Identifying Relationship Datenbank?
 
-Bei Identifying Relationships wird im Gegensatz zu Non-Identifying Relationships der Foreign Key zusammen mit dem Index als Primary Key verwendet. Dadurch hat die Tabelle zwei Primary Keys.
+Bei Identifying Relationships wird im Gegensatz zu Non-Identifying Relationships der Foreign Key zusammen mit dem Index als Primary Key verwendet. Die Tabelle hat dadurch **nicht** zwei Primary Keys.
