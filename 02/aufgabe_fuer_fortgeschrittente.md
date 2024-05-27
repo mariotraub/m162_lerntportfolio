@@ -6,6 +6,7 @@
 Ein Tablespace ist eine logische Speichereinheit in einer Datenbank, die physische Speicherdateien gruppiert und organisiert. Es handelt sich um eine Art Container, der verwendet wird, um Tabellen, Indizes und andere Objekte zu speichern. In Oracle-Datenbanken, zum Beispiel, können Tablespaces aus einer oder mehreren physischen Dateien bestehen, die Datenbankdateien genannt werden. 
 
 ### Tablespace Architecture
+Speicher im RAM (Eine Art Cache).
 Die Architektur eines Tablespaces bezieht sich auf die Struktur und Organisation der Daten innerhalb des Tablespaces. Sie umfasst mehrere wichtige Komponenten:
 
 - **Datenbankblöcke:** Die kleinste Speichereinheit, in der die tatsächlichen Daten gespeichert sind.
