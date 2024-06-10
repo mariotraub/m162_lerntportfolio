@@ -41,6 +41,12 @@ WHERE s.bezeichnung = 'Thriller' ORDER BY b.titel;
 # Gesucht sind alle Liebesromane. Geben Sie Buchtitel, Sparte und Verlagsname aus, sortiert nach Buchtitel aufsteigend.
 
 ```SQL
-
+SELECT b.titel, s.bezeichnung, v.`name` FROM buecher_has_sparten bs 
+JOIN sparten s ON bs.sparten_sparten_id = s.sparten_id 
+JOIN buecher b ON bs.buecher_buecher_id = b.buecher_id 
+JOIN verlage v ON b.verlage_verlage_id = v.verlage_id
+WHERE s.bezeichnung = 'Liebe' ORDER BY b.titel asc;
 ```
+
+
 
