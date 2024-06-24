@@ -26,6 +26,6 @@ JOIN sparten s ON s.sparten_id = bs.sparten_sparten_id
 WHERE s.bezeichnung = 'Thriller');
 
 SELECT titel, (verkaufspreis - einkaufspreis) AS gewinn FROM buecher
-WHERE (verkaufspreis - einkaufspreis) > (SELECT AVG(verkaufspreis - einkaufspreis) FROM buecher WHERE buecher_id != 22);
+WHERE (verkaufspreis - einkaufspreis) > (SELECT AVG(verkaufspreis - einkaufspreis) FROM buecher WHERE buecher_id <> 22);
 
 
