@@ -30,8 +30,7 @@ d)	Geben Sie Name, Wohnort und Einwohnerzahl für alle Kunden aus, die in einem 
 ```SQL
 select k.name, o.name, o.einwohnerzahl from kunden as k
 join orte as o on k.fk_ort_postleitzahl = o.id_postleitzahl
-where o.einwohnerzahl > 70000;
-```
+where o.einwohnerzahl > 70000
 e)	Geben Sie alle Orte aus, die weniger als 1000000 Einwohner haben.
 ```SQL
 select * from orte
@@ -44,7 +43,6 @@ join orte as o on k.fk_ort_postleitzahl = o.id_postleitzahl
 where o.einwohnerzahl > 100000 and o.einwohnerzahl < 1000000;
 ```
 g)	Geben Sie Kundename, Postleitzahl und Ortname aus für alle Kunden, deren Name ein "e" enthält und alle Orte, die ein "u" oder ein "r" enthalten (frEd aus stUden wird also genau so angezeigt wie jEssE aus bRnz, frEd aus salzen aber nicht und martin aus hambURg auch nicht).
-
 ```SQL
 select k.name, o.name, o.id_postleitzahl from kunden as k
 join orte as o on k.fk_ort_postleitzahl = o.id_postleitzahl
