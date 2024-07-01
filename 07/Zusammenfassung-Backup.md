@@ -36,3 +36,4 @@
 - **Vorteil:** Jede Datei wird nur einmal gesichert, wodurch Speicherplatz gespart wird.
 - **Nachteil:** Zur Wiederherstellung sind alle Sicherungen vom letzten Voll-Backup bis zum gewünschten Stand notwendig.
 
+![alt text](image.png)
